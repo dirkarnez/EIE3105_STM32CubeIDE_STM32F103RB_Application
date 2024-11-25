@@ -63,8 +63,6 @@ void delay(int t) {
  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
 }
 
-
-
 /**
   * @brief  The application entry point.
   * @retval int
@@ -107,9 +105,9 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	  // On-board LED turn on.
 	GPIOA->BSRR |= 0x20;
-	delay(3000000);
+	delay(2000000);
 	GPIOA->BRR  |= 0x20;
-	delay(3000000);
+	delay(2000000);
   }
   /* USER CODE END 3 */
 }
