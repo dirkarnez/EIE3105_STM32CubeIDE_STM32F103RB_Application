@@ -57,6 +57,14 @@ static void MX_GPIO_Init(void);
 
 /* USER CODE END 0 */
 
+
+void delay(int t) {
+ for(int i = 0; i < t; i++)
+ HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+}
+
+
+
 /**
   * @brief  The application entry point.
   * @retval int
@@ -97,6 +105,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  // On-board LED turn on.
+	GPIOA->BSRR |= 0x20;
+	delay(3000000);
+	GPIOA->BRR  |= 0x20;
+	delay(3000000);
   }
   /* USER CODE END 3 */
 }
