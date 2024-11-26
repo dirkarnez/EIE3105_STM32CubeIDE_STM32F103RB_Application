@@ -37,15 +37,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  0001592d  00000000  00000000  00006e26  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   000049c4  00000000  00000000  0001c753  2**0
+ 17 .debug_line   00004f14  00000000  00000000  0001c753  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    0007bc45  00000000  00000000  00021117  2**0
+ 18 .debug_str    0007bc5f  00000000  00000000  00021667  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  0009cd5c  2**0
+ 19 .comment      00000043  00000000  00000000  0009d2c6  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00000d50  00000000  00000000  0009cda0  2**2
+ 20 .debug_frame  00000d50  00000000  00000000  0009d30c  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000089  00000000  00000000  0009daf0  2**0
+ 21 .debug_line_str 000000a3  00000000  00000000  0009e05c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -155,7 +155,7 @@ int main(void)
  8000194:	4a08      	ldr	r2, [pc, #32]	@ (80001b8 <main+0x38>)
  8000196:	f043 0320 	orr.w	r3, r3, #32
  800019a:	6113      	str	r3, [r2, #16]
-	delay(3000000);
+	delay(2000000);
  800019c:	4807      	ldr	r0, [pc, #28]	@ (80001bc <main+0x3c>)
  800019e:	f7ff ffd5 	bl	800014c <delay>
 	GPIOA->BRR  |= 0x20;
@@ -164,14 +164,14 @@ int main(void)
  80001a6:	4a04      	ldr	r2, [pc, #16]	@ (80001b8 <main+0x38>)
  80001a8:	f043 0320 	orr.w	r3, r3, #32
  80001ac:	6153      	str	r3, [r2, #20]
-	delay(3000000);
+	delay(2000000);
  80001ae:	4803      	ldr	r0, [pc, #12]	@ (80001bc <main+0x3c>)
  80001b0:	f7ff ffcc 	bl	800014c <delay>
 	GPIOA->BSRR |= 0x20;
  80001b4:	bf00      	nop
  80001b6:	e7eb      	b.n	8000190 <main+0x10>
  80001b8:	40010800 	.word	0x40010800
- 80001bc:	002dc6c0 	.word	0x002dc6c0
+ 80001bc:	001e8480 	.word	0x001e8480
 
 080001c0 <SystemClock_Config>:
 /**

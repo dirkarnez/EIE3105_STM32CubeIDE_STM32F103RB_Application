@@ -1,5 +1,6 @@
 .settings/*
 !.settings/org.eclipse.core.resources.prefs
+Debug
 
 # Prerequisites
 *.d
