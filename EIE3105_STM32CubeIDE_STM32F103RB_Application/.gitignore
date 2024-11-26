@@ -2,6 +2,8 @@
 !.settings/org.eclipse.core.resources.prefs
 Debug
 
+EIE3105_STM32CubeIDE_STM32F103RB_Application.list
+
 # Prerequisites
 *.d
 
