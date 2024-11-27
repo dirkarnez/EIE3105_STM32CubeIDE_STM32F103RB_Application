@@ -6,3 +6,9 @@ EIE3105_STM32CubeIDE_STM32F103RB_Application
 ### Programmer
 - [STM32CubeProgrammer software description](https://www.st.com/resource/en/user_manual/um2237-stm32cubeprogrammer-software-description-stmicroelectronics.pdf)
 - [STM32_Programmer_CLI.exe基本命令介绍_stm32cubeprogrammer qt-CSDN博客](https://blog.csdn.net/yxy244/article/details/108453398)
+
+### Reference
+- [STM32 HAL库函数详解_乘凉~的博客-CSDN博客](https://blog.csdn.net/anchenliang_1002/category_12381836.html)
+- [8. 初识HAL固件库 — [野火]STM32 HAL库开发实战指南——基于F103系列开发板 文档](https://doc.embedfire.com/mcu/stm32/f103/hal_general/zh/latest/doc/chapter9/chapter9.html)
+- [STM32基于标准库函数和HAL库编程差异_stm32库函数和hal库-CSDN博客](https://blog.csdn.net/qq_45237293/article/details/111057576)
+- [STM32 HAL库函数——HAL_TIM_Base_Start_IT()详解_hal-tim-base-start-it-CSDN博客](https://blog.csdn.net/AnChenliang_1002/article/details/133943437)
