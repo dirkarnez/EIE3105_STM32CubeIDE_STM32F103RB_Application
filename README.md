@@ -1,5 +1,30 @@
 EIE3105_STM32CubeIDE_STM32F103RB_Application
 ============================================
+```
+ST-LINK SN  : 066EFF575251717867144338
+ST-LINK FW  : V2J37M26
+Board       : NUCLEO-F103RB
+Voltage     : 3.24V
+SWD freq    : 4000 KHz
+Connect mode: Normal
+Reset mode  : Software reset
+Device ID   : 0x410
+Revision ID : Rev X
+Device name : STM32F101/F102/F103 Medium-density
+Flash size  : 128 KBytes
+Device type : MCU
+Device CPU  : Cortex-M3
+BL Version  : --
+
+
+
+Memory Programming ...
+Opening and parsing file: EIE3105_STM32CubeIDE_STM32F103RB_Application.elf
+  File          : EIE3105_STM32CubeIDE_STM32F103RB_Application.elf
+  Size          : 4.52 KB
+  Address       : 0x08000000
+```
+
 ### Proteus simulation
 - [Aravindsamy04/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-](https://github.com/Aravindsamy04/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-)
 
