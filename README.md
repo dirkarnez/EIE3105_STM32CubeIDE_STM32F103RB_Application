@@ -8,6 +8,7 @@ EIE3105_STM32CubeIDE_STM32F103RB_Application
   - [dirkarnez/stm32cubeprogrammer](https://github.com/dirkarnez/stm32cubeprogrammer)
 - [STM32CubeProgrammer software description](https://www.st.com/resource/en/user_manual/um2237-stm32cubeprogrammer-software-description-stmicroelectronics.pdf)
 - [STM32_Programmer_CLI.exe基本命令介绍_stm32cubeprogrammer qt-CSDN博客](https://blog.csdn.net/yxy244/article/details/108453398)
+- [STM32CubeProg 下载及安装教程_stm32cubeprogrammer-CSDN博客](https://blog.csdn.net/Brendon_Tan/article/details/107686371)
 
 ### Reference
 - [STM32 HAL库函数详解_乘凉~的博客-CSDN博客](https://blog.csdn.net/anchenliang_1002/category_12381836.html)
